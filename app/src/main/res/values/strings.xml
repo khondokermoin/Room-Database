@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Room Database</string>
+    <string name="student_database">Student Database</string>
+    <string name="enter_your_first_name">Enter your first name</string>
+    <string name="enter_your_last_name">Enter your last name</string>
+    <string name="enter_your_roll">Enter your roll</string>
+    <string name="search_your_roll">Search your roll</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+    <string name="delete_all">Delete All</string>
 </resources>

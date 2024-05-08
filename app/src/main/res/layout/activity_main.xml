@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
-        android:text="Student Database"
+        android:text="@string/student_database"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Enter your first name"
+            android:hint="@string/enter_your_first_name"
             android:inputType="text"
             android:id="@+id/firstnameEt"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -50,7 +50,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Enter your last name"
+            android:hint="@string/enter_your_last_name"
             android:inputType="text"
             android:id="@+id/lastnameEt"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -66,7 +66,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Enter your roll"
+            android:hint="@string/enter_your_roll"
             android:inputType="text"
             android:id="@+id/roll"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -85,7 +85,7 @@
             android:id="@+id/srcRoll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Search your roll"
+            android:hint="@string/search_your_roll"
             android:inputType="text" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -96,7 +96,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:letterSpacing="0.1"
-        android:text="Search"
+        android:text="@string/search"
         android:textColor="@color/black"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
@@ -125,7 +125,7 @@
             android:layout_marginHorizontal="5dp"
             android:backgroundTint="@color/white"
             android:letterSpacing="0.1"
-            android:text="Save"
+            android:text="@string/save"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:cornerRadius="10dp"
@@ -139,7 +139,7 @@
             android:backgroundTint="@color/white"
             android:layout_marginHorizontal="5dp"
             android:letterSpacing="0.1"
-            android:text="Delete All"
+            android:text="@string/delete_all"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:cornerRadius="10dp"
