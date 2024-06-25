@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:endIconMode="clear_text"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="65dp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView">
@@ -106,6 +106,23 @@
         app:strokeColor="@color/black"
         app:strokeWidth="1dp" />
 
+    <Button
+        android:id="@+id/showBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:letterSpacing="0.1"
+        android:text="Show Data"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/srcBtn"
+        app:layout_constraintStart_toStartOf="@+id/srcBtn"
+        app:layout_constraintTop_toBottomOf="@+id/srcBtn"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -114,8 +131,8 @@
         app:layout_constrainedWidth="true"
         app:layout_constraintEnd_toEndOf="@+id/srcBtn"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/srcBtn"
-        app:layout_constraintTop_toBottomOf="@+id/srcBtn">
+        app:layout_constraintStart_toStartOf="@+id/showBtn"
+        app:layout_constraintTop_toBottomOf="@+id/showBtn">
 
         <Button
             android:id="@+id/saveBtn"
